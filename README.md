@@ -23,8 +23,8 @@ To create a Pivot Chart, the whole worksheet is selected. In the new sheet, the 
 
 Place the following headers into the fields. This will create Pivot Table and Pivot Chart.
 
-![](image/Pivot_Table.PNG)
-![](image/Filter.PNG)
+![](images/Filter.PNG)
+![](images/Pivot_Table.PNG)
 
 Make sure to filter the Parent Category to "Theater" and Outcomes to "Successful, failed, canceled). In addition, the Months should also be filtered from Lowest to Highest. The graph is generated below:
 
