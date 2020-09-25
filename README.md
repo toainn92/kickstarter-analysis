@@ -2,11 +2,11 @@
 
 ## Overview of Project
 
-The Purpose of this analysis was to determine the number of outcomes (Successful, failed, canceled) in launching a Kickstarter. 
+The Purpose of this analysis was to determine the number of outcomes (Successful, Failed, Canceled) in launching a Kickstarter. 
 
-The first analysis "Outcomes Based on Launch Date" was to generate the number of Theater (Parent Category) outcomes (Successful, failed, canceled) based on Launch Date (Month). 
+The first analysis "Outcomes Based on Launch Date" was to generate the number of Theater (Parent Category) outcomes (Successful, Failed, Canceled) based on Launch Date (Month). 
 
-The second analysis "Outcomes Based on Goals" was to generate the number of Plays (Subcategory) outcomes (Successful, failed, canceled) based on the Kicstarter Goal Cost ($).
+The second analysis "Outcomes Based on Goals" was to generate the number of Plays (Subcategory) outcomes (Successful, Failed, Canceled) based on the Kicstarter Goal Cost ($).
 
 ## Analysis and Challenges
 
@@ -23,7 +23,7 @@ To create a Pivot Chart, the whole worksheet is selected. In the new sheet, the 
 
 Place the following headers into the fields. This will create Pivot Table and Pivot Chart.
 
-![](images/Pivot_Table.png)
+![](image/Filter.PNG)
 
 Make sure to filter the Parent Category to "Theater" and Outcomes to "Successful, failed, canceled). In addition, the Months should also be filtered from Lowest to Highest. The graph is generated below:
 
@@ -35,6 +35,8 @@ To perform this analysis, a new worksheet will need to generated with 8 differen
 In the goal column, the Goal $ amount are broken up into dollar-amount ranges. They are broken up 12 rows as defined below:
 
 In this analysis, the "Countifs()" function is used to filter the "Outcomes", "Goals", and "Subcategory" fields. Below is an example of the code.
+
+![](images/Countif.PNG)
 
 Before generating the line graph, the last three columns "Percentage Successful", "Percentage Failed", and "Percentage Canceled" have values created by dividing the Outcomes (Successful, Failed, Canceled) by the Total Projects. Remember to click "Percentage" for the cell tab.
 
