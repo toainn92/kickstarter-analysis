@@ -47,14 +47,18 @@ For the Outcomes Based on Goals Analysis, I ran to a few challenges. One challen
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+
 Based on the Outcomes Based on Launch Date Graph, there are more successful Theater Kickstarters if they are launched in the month of May/June/July, indicating that Launch Date for Theater Kickstarters are more popular in the Summer months. In addtion, the number of successful and failed Theater Kickstarters are almost equal in the month of December, indicating that Launching in December is not a popular month.
 
 - What can you conclude about the Outcomes based on Goals?
+
 Based on the Outcomes based on Goals graph, Plays Kickstarters have a high percentage of failing or low percentage of being successful if the goal amount is $45000 or greater. This indicate that if the goal cost is too high, there is a high change that the Play Kickstarter will fail. In addition, both the Percentage Successful and Percantage Failed are almost inversely proportional. This indicate if Percentage Failed is high, Percentage Successful will be low and if Percentage Failed is low, then Percentage Successful will be high. This occurs because no Plays Kickstarters were canceled, "Percentage Canceled" is zero.
 
 - What are some limitations of this dataset?
+
 The limitation of this dataset is creating predictions and writing a story for Kickstarters that were canceled. For example, the number of outcomes for "Canceled" were so low in the Theaters category that it's hard to predict which month impacts Kickstarters that are canceled. In addition, there were no "Canceled" Kickstarters in the Play subcategory regardless of Goal price.
 
 - What are some other possible tables and/or graphs that we could create?
+
 A recommendation to combat the limitation is to create "Outcomes Based on Launch Date" and "Outcomes Based on Goals" with no filter on Category or Subcategory. This will determine if Kickstarters as a whole are canceled based on Launch Date or Goals.
 
