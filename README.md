@@ -2,7 +2,11 @@
 
 ## Overview of Project
 
-### The Purpose of this analysis was to determine the number of outcomes (Successful, failed, canceled) in launching a Kickstarter. The first analysis was to generate the number of Theater (Parent Category) outcomes (Successful, failed, canceled) based on Launch Date (Month). The second analysis was to generate the number of Plays (Subcategory) outcomes (Successful, failed, canceled) based on the Kicstarter Goal Cost ($).
+The Purpose of this analysis was to determine the number of outcomes (Successful, failed, canceled) in launching a Kickstarter. 
+
+The first analysis "Outcomes Based on Launch Date" was to generate the number of Theater (Parent Category) outcomes (Successful, failed, canceled) based on Launch Date (Month). 
+
+The second analysis "Outcomes Based on Goals" was to generate the number of Plays (Subcategory) outcomes (Successful, failed, canceled) based on the Kicstarter Goal Cost ($).
 
 ## Analysis and Challenges
 
