@@ -21,9 +21,11 @@ Then, a new column (U) will be created with the header "Year". The Year () funct
 
 To create a Pivot Chart, the whole worksheet is selected. In the new sheet, the Pivot Table and Pivot Chart will be empty. 
 
-Place the following headers into the fields. This will create Pivot Table and Pivot Chart
+Place the following headers into the fields. This will create Pivot Table and Pivot Chart.
 
 Make sure to filter the Parent Category to "Theater" and Outcomes to "Successful, failed, canceled). In addition, the Months should also be filtered from Lowest to Highest. The graph is generated below:
+
+
 
 ### Analysis of Outcomes Based on Goals
 To perform this analysis, a new worksheet will need to generated with 8 different columns. They are titled as "Goal, Number Successful, Number Failed, Number Canceled, Total Project, Percentage Successful, Percentage Failed, Percentage Canceled"
