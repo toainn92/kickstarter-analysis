@@ -17,11 +17,13 @@ Next, a new column (S) will be created with the header "Date Created Conversion"
 
 This will generate the converted Launch Date from the Unix timestamp.
 
-Then, a new column (U) will be created with the header "Year". The Year () function is used to extract the year from the "Date Created Conversion" column
+Then, a new column (U) will be created with the header "Year". The Year () function is used to extract the year from the "Date Created Conversion" column.
 
 To create a Pivot Chart, the whole worksheet is selected. In the new sheet, the Pivot Table and Pivot Chart will be empty. 
 
 Place the following headers into the fields. This will create Pivot Table and Pivot Chart.
+
+![](images/PivotTable.png)
 
 Make sure to filter the Parent Category to "Theater" and Outcomes to "Successful, failed, canceled). In addition, the Months should also be filtered from Lowest to Highest. The graph is generated below:
 
